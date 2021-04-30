@@ -1,0 +1,5 @@
+GitRepo: https://github.com/id77/jd_scripts_bot.git
+
+Tags: linux
+SharedTags: latest
+Architectures: amd64, arm64v8
