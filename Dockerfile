@@ -1,3 +1,4 @@
+FROM arm64v8/alpine:3.12
 FROM lxk0301/jd_scripts:latest
 
 COPY qemu-aarch64-static /usr/bin
