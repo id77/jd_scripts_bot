@@ -1,3 +1,6 @@
+FROM arm64v8/alpine:3.12
+COPY qemu-aarch64-static /usr/bin/
+
 FROM lxk0301/jd_scripts:latest
 
 # RUN apk add --update nodejs-current python3-dev py3-pip py3-cryptography py3-numpy py-pillow && \
